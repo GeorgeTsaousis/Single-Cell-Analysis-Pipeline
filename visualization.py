@@ -2,7 +2,7 @@ import streamlit as st
 import scanpy as sc
 
 def run():
-    st.title("📊 Visualization")
+    st.title("Visualization")
 
     if "adata" not in st.session_state:
         st.warning("No data found. Please run the analysis first.")

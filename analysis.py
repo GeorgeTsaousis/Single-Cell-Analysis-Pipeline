@@ -2,7 +2,7 @@ import streamlit as st
 import scanpy as sc
 
 def run():
-    st.title("🔬 Analysis Pipeline")
+    st.title("Analysis Pipeline")
 
     data_file = st.file_uploader("Upload .h5ad file", type=["h5ad"])
     if data_file:
