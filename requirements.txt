@@ -6,3 +6,9 @@ pandas
 numpy
 h5py
 anndata
+harmonypy
+hdf5plugin
+jupyter
+igraph
+leidenalg
+adjustText
